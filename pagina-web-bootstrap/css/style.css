@@ -20,5 +20,26 @@ body{
 ===================== SLIDER =====================================================
 */
 .carousel-inner{
-    max-height: 39rem;
+    max-height: 35rem;
+}
+/*
+=================== MEDIA QUERIES PANTALLA PEQUEÑA ==============================
+*/
+@media (max-width:768px){
+    #intro{
+        width: 90% !important;
+    }
+    .servicio-fila{
+        width: 100% !important;
+        text-align: center;
+    }
+}
+/*
+================== MEDIA QUERIES PANTALLAS MUY PEQUEÑAS ========================
+*/
+@media (max-width: 576px){
+    .icono-wrap{
+        flex-wrap: wrap; /* Apila los elementos */
+        justify-content: center !important;
+    }
 }

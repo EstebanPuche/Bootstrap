@@ -16,3 +16,9 @@ body{
     font-size: 18px;
     font-weight: bold;
 }
+/*
+===================== SLIDER =====================================================
+*/
+.carousel-inner{
+    max-height: 39rem;
+}

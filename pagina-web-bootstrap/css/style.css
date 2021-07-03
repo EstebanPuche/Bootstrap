@@ -61,6 +61,48 @@ body{
     margin: 0;
 }
 
+/* 
+================== CONTACTO BACKGROUND =========================================
+*/
+#bg-contacto{
+    position: relative;
+    top: -130px; /* Movemos la imagen hacia arriba */
+}
+#seccion-contacto{
+    background-color: #1b2a4e;
+    min-height: 500px;
+    position: relative;
+}
+/* ============= CONTACTO FORMULARIO ==========================================
+*/
+#contenedor-formulario{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fbfafa;
+    border-radius: 10px;
+    max-width: 500px;
+}
+#titulo-formulario{
+    color: #3f3f3f;
+}
+/*
+================= FOOTER ======================================================
+*/
+footer{
+    background: #1b2a4e;
+    min-height: 100px;
+}
+footer p{
+    color: #F3F3F3;
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: #F3F3F3;
+}
 /*
 ================== MEDIAQUERIRES PANTALLA ANCHA =================================
 */
@@ -88,6 +130,9 @@ body{
     .servicio-fila{
         width: 100% !important;
         text-align: center;
+    }
+    #bg-contacto{
+        top: -110px; /* Movemos la imagen hacia arriba */
     }
 }
 /*
